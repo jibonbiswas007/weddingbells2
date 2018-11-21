@@ -1,0 +1,271 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+.header-area .container, .event-area .container, .team-area .container, .gallery-area .container, .blog-area .container, .contact-area .container, .content-area .container {
+  max-width: 100%;
+}
+.oposite-side .timeline-borderline {
+  left: -139px;
+}
+.timeline-borderline {
+  right: -139px;
+}
+.single-testimonial {
+  width: 95%;
+}
+.team-area .container {
+  padding: 0 35px;
+}
+.no-margin {
+  margin: 0;
+}
+.mainmenu ul li a {
+  padding: 37px 15px;
+}
+
+
+
+}
+    
+
+/* tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.slide-area .container, .team-area .container, .subscribe-area .container, .gallery-area .container, .blog-area .container, .contact-area .container, .content-area .container {
+  max-width: 100%;
+}
+.no-margin {
+  margin: 0;
+}
+.header-area {
+  background: #47484a none repeat scroll 0 0;
+  position: relative;
+}
+.logo {
+  margin-bottom: 10px;
+}
+.header-right {
+  margin: 0;
+}
+.mean-container a.meanmenu-reveal {
+  border-left: 1px solid #fff;
+  padding: 12px 13px 10px;
+  text-indent: 0;
+}
+.slider-text {
+  padding: 0 30px;
+  width: 75%;
+}
+#slider .nivo-directionNav .nivo-prevNav {
+  left: 6%;
+}
+#slider .nivo-directionNav .nivo-nextNav {
+  right: 6%;
+}
+.oposite-side .timeline-borderline {
+  left: -106px;
+}
+.timeline-borderline {
+  right: -107px;
+}
+.single-testimonial {
+  width: auto;
+}
+.event-wrapper {
+  padding: 15px 0 0;
+}
+.right-contact {
+  padding: 0 0 0 20px;
+}
+.contacft-form .capcha {
+  width: 79.5%;
+}
+
+
+}
+
+    
+    
+/* Small Mobile :320px. */
+
+@media (max-width: 767px) {
+.no-margin {
+  margin: 0;
+}
+.section-title h2 {
+  font-size: 32px;
+}
+.header-area {
+  background: #47484a none repeat scroll 0 0;
+  position: relative;
+}
+.logo {
+  margin-bottom: 10px;
+}
+.header-right {
+  float: none;
+  margin: 0 0 25px;
+  text-align: center;
+}
+.mean-container a.meanmenu-reveal {
+  border-left: 1px solid #fff;
+  padding: 12px 13px 10px;
+  text-indent: 0;
+}
+.slider-text {
+  border: medium none;
+  padding: 0;
+  width: 75%;
+}
+.slider-text p, .slider-text h4, .timeline ul::before, .timeline-icon i, .testimonial-content i {
+  display: none;
+}
+.slider-text h2 {
+  bottom: -50px;
+  top: auto;
+}
+.slider-text h2 a {
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 20px 25px;
+}
+#slider .nivo-directionNav .nivo-prevNav {
+  left: 6%;
+}
+#slider .nivo-directionNav .nivo-nextNav {
+  right: 6%;
+}
+.oposite-side .timeline-borderline {
+  left: -106px;
+}
+.timeline-borderline {
+  right: -107px;
+}
+.single-testimonial {
+  width: auto;
+}
+.event-wrapper {
+  padding: 15px 0 0;
+}
+.mean-container .mean-bar {
+  width: 100%;
+}
+.slider-text .button {
+   display: none !important;
+ }
+.dis-block {
+  display: block !important;
+}
+.couple-img {
+  margin: 0 auto 30px;
+}
+.couple-icon {
+  margin: 50px auto;
+}
+.wedding-couple-info {
+  padding: 30px 15px;
+}
+.timeline ul li, .timeline-info {
+  width: auto;
+}
+.wedding-couple-area .section-title, .timeline-area .section-title {
+  margin-bottom: 80px;
+}
+.timeline ul {
+  padding: 0;
+}
+.testimonial-content p {
+  padding: 0;
+}
+.testimonial-content {
+  border-radius: 5px;
+  padding: 30px 25px;
+  position: relative;
+}
+.testimonial-content::before {
+  border-color: #ffffff transparent transparent;
+  border-style: solid;
+  border-width: 30px 25px 0;
+  bottom: -30px;
+  content: "";
+  height: 0;
+  left: 4px;
+  position: absolute;
+  width: 0;
+}
+.test-autor-info {
+  padding: 0;
+}
+.test-img {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+.nav-style .owl-dots {
+  left: 0;
+  top: -30px;
+}
+.nav-style .owl-dots div {
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+.location-box {
+  width: 100%;
+}
+.footer-thumb {
+  margin: auto;
+}
+.right-contact {
+  margin: 35px 0 0;
+  padding: 0;
+}
+.contacft-form .capcha {
+  width: 100%;
+}
+
+
+
+
+
+
+}
+    
+    
+    
+/* Large Mobile :480px. */
+@media (min-width: 480px) and (max-width: 767px) {
+.gallery-area .container, {
+  max-width: 100%;
+}
+.slider-text {
+  border: 1px solid #ffff;
+  padding: 0;
+  width: 60%;
+}
+.slider-text h2 {
+  bottom: auto;
+  top: -25px;
+}
+.slider-text .button {
+  bottom: -25px;
+  display: inline-block !important;
+  top: auto;
+}
+.slider-text h2 a {
+  border-radius: 30px;
+  font-size: 25px;
+  padding: 15px 50px;
+}
+#slider .nivo-directionNav .nivo-prevNav {
+  left: 24%;
+}
+#slider .nivo-directionNav .nivo-nextNav {
+  right: 24%;
+}
+
+
+
+
+
+
+}
